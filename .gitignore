@@ -2,3 +2,5 @@
 main
 
 
+# ignore obj
+obj/
