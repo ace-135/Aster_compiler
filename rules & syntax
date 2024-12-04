@@ -1,0 +1,71 @@
+1. data types:
+int double char string
+
+2. syntax
+int a;			// int
+double b;		// double
+char c; 		// char
+string d;		// string
+
+int n = 3;
+int e[n];		// int_array
+double f[n];	// double_array
+char g[n+4];	// char_array
+string h[n];	// string_array
+
+
+scan a; 	// 523
+print a; 	// 523
+
+scan b;		// 12.355
+print b;	// 12.355
+
+scan c;		// asd
+print c;	// a
+
+scan d;		// asd dsa
+print d;	// asd
+
+scan -l d;	// asd dsa
+print d;	// asd dsa
+
+scan g;		// asd dsa
+print g;	// asd ds
+
+for (int i=0; i<3; i++) {
+	scan e[i];	// 0:5, 1:6, 2:8
+	scan f[i];	// 0:5.1, 1:20.8, 2:2.3
+	scan g[i];	// 0:as, 1:i, 2:lk
+	scan h[i];	// 0:asd dsa, 1:qw, 2: lk ek
+}
+
+for (int i=0; i<3; i++) {
+	print e[i];	// 0:5, 1:6, 2:8
+	print f[i];	// 0:5.1, 1:20.8, 2:2.3
+	print g[i];	// 0:a, 1:i, 2:l
+	print h[i];	// 0:asd dsa, 1:qw, 2: lk ek
+}
+
+for (initialise; condition; upgrade) {}
+
+while (condition) {
+	// codes
+}
+
+if (condition) {}
+
+if (condition) {}
+else {}
+
+if (condition) {}
+else if (condition) {}
+else {}
+
+do {
+	// codes
+} while (condition);
+
+rules:
+1. every statement should end with semi-colon (;)
+2. curly braces can be omitted for if-condition, for-loop, while-loop, do-while-loop if it contains only single line of code. But for multiline of codes, curly-braces is mendetory.
+3. program file extension is .ast
