@@ -1,0 +1,18 @@
+int main() {
+    int a = 5;
+    int b = 10;
+    
+    if (a == b) {
+        print "Equal!";
+    } else if (a != b) {
+        print "Not equal!";
+    }
+    
+    while (a < b) {
+        a++;
+    }
+    if (a<=b)
+        --a;
+
+    a += b;  // += operator
+}
